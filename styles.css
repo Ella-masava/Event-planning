@@ -1,0 +1,119 @@
+/* *{
+    padding:0;
+    margin:0;
+}
+.wrapper{
+    background: url(bg-img.jpeg)no-repeat;
+    background-size:1280*1020;
+    height: 100;
+}
+.navbar{
+    height: 80px;
+    width:100%;
+    background: rgb(0,0,0,4);
+}
+.logo{
+    width: 140px;
+    height:auto;
+    padding:20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height:80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:greenyellow;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar ul li a.active
+.navbar ul li a:hover{
+background:palevioletred;
+border-radius: 2px;
+}
+.wrapper.center{
+    position:absolute;
+    top:49%;
+    left:56%;
+    font-family: sans-serif;
+}
+.center h1{
+    color:green;
+    font-size:70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color:yellow;
+    font-size:70px;
+    font-weight:bold;
+    width:850px;
+    margin-top:10px
+    text-align:c
+    enter;
+}
+.center.buttons{
+    margin:35px 28px;
+}
+.buttons button{
+    height:50px;
+    width:150px;
+    font-size:18px;
+    font-weight: bold;
+    color:#ffb3b3;
+    background:pink;
+    border:1px solid #cc0000;
+    cursor: pointer;
+    border-radius: 25px;
+}
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color:blueviolet;
+    font-family:  arial;
+}
+
+p{
+    color:chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.title{
+    background-color: blue;
+    text-align: center;
+    padding:10px ;
+    color:black;
+}
+.navbar>ul>li>a{
+    background-color: grey;
+    text-align: center;
+    padding:15px;
+    color:brown;
+}
+.contacts{
+    background-color: chocolate;
+    text-align: center;
+    padding:12px;
+    color:green;
+}
+.cookeries{
+    background-color: indigo;
+    text-align: center;
+    padding:13px ;
+    color:black;
+}
+.pricing{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding:20px;
+    color:red;
+}
